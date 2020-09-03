@@ -17,10 +17,10 @@ def assembled_aoh
 end
 
 def literal_aoh
-  
+
   array = [
-    {:name => DON_G[:name], :occupation => DON_G[:occupation]}, 
-    
+    {:name => DON_G[:name], :occupation => DON_G[:occupation]},
+
     ]
     binding.pry
   # Using Array literal syntax only, build a nested array that uses the data in
