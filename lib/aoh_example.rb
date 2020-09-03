@@ -16,7 +16,7 @@ def assembled_aoh
   ]
 end
 
-def literal_aoh
+def literal_aoh (constant)
   new_array = [
     DON_G[:name, :occupation], JOELLE_VD[:name, :occupation], PAT_M[:name, :occupation], KATE_G[:name, :occupation], BRUCE_G[:name, :occupation]
   ]
