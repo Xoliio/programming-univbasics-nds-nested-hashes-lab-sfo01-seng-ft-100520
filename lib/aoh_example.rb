@@ -25,7 +25,7 @@ def literal_aoh
     {:name => KATE_G[:name], :occupation => KATE_G[:occupation]},
     {:name => BRUCE_G[:name], :occupation => BRUCE_G[:occupation]}
     ]
-    binding.pry
+  
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
 end
