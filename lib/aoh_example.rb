@@ -18,11 +18,7 @@ end
 
 def literal_aoh
   nested_array = [
-    DON_G{},
-    JOELLE_VD {},
-    PAT_M {},
-    KATE_G {},
-    BRUCE_G {}
+    
   ]
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
