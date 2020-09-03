@@ -20,7 +20,10 @@ def literal_aoh
 
   array = [
     {:name => DON_G[:name], :occupation => DON_G[:occupation]},
-
+    {:name => JOELLE_VD[:name], :occupation => JOELLE_VD[:occupation]},
+    {:name => PAT_M[:name], :occupation => PAT_M[:occupation]},
+    {:name => KATE_G[:name], :occupation => KATE_G[:occupation]},
+    {:name => BRUCE_G[:name], :occupation => BRUCE_G[:occupation]}
     ]
     binding.pry
   # Using Array literal syntax only, build a nested array that uses the data in
