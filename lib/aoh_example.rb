@@ -7,6 +7,13 @@ KATE_G = { name:  "Kate Gompert", occupation: "None" }
 BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
 def assembled_aoh
+  BIG_ARRAY = [
+    DON_G,
+    JOELLE_VD,
+    PAT_M,
+    KATE_G,
+    BRUCE_G
+  ]
   # Build an array that contains (or, "nests") the constants into a single
   # Array. Ruby constants are denoted by ALL_CAPS
 end
@@ -17,6 +24,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
+
 end
 
 def aoh_update(aoh, row, key, new_value)
