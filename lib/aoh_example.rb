@@ -18,7 +18,7 @@ end
 
 def literal_aoh
   new_array = [
-    the_array[0], the_array[1], the_array[2], the_array[3], the_array[4]
+    {:name, :occupation}, 
   ]
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
