@@ -17,10 +17,11 @@ def assembled_aoh
 end
 
 def literal_aoh
+  binding.pry
   new_array = [
     DON_G[:name, :occupation], JOELLE_VD[:name, :occupation], PAT_M[:name, :occupation], KATE_G[:name, :occupation], BRUCE_G[:name, :occupation]
   ]
-  binding.pry
+
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
 end
